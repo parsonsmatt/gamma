@@ -1,5 +1,7 @@
 # Gamma
 
+[![Build Status](https://travis-ci.org/parsonsmatt/gamma.svg?branch=master)](https://travis-ci.org/parsonsmatt/gamma)
+
 A toy programming language that seeks to reify gamma.
 
 ## Concept
