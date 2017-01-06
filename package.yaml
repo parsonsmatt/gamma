@@ -1,0 +1,30 @@
+name:                gamma
+version:             0.1.0.0
+synopsis:            Programming language experiment
+description:         Please see README.md
+homepage:            https://github.com/parsonsmatt/gamma#readme
+license:             BSD3
+author:              Matt Parsons
+maintainer:          parsonsmatt@gmail.com
+copyright:           2017 Matt Parsons
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - protolude
+
+default-extensions:
+  - TemplateHaskell
+  - QuasiQuotes
+  - OverloadedStrings
+  - NoImplicitPrelude
+  - RecordWildCards
+  - LambdaCase
+  - FlexibleContexts
+  - BangPatterns
+
+library:
+  source-dirs: src
+

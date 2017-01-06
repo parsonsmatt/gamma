@@ -1,0 +1,31 @@
+-- This file has been generated from package.yaml by hpack version 0.14.1.
+--
+-- see: https://github.com/sol/hpack
+
+name:           gamma
+version:        0.1.0.0
+synopsis:       Programming language experiment
+description:    Please see README.md
+category:       Web
+homepage:       https://github.com/parsonsmatt/gamma#readme
+author:         Matt Parsons
+maintainer:     parsonsmatt@gmail.com
+copyright:      2017 Matt Parsons
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+library
+  hs-source-dirs:
+      src
+  default-extensions: TemplateHaskell QuasiQuotes OverloadedStrings NoImplicitPrelude RecordWildCards LambdaCase FlexibleContexts BangPatterns
+  build-depends:
+      base >= 4.7 && < 5
+    , protolude
+  exposed-modules:
+      Gamma
+  default-language: Haskell2010

@@ -1,0 +1,33 @@
+steps:
+  - simple_align:
+      cases: true
+      top_level_patterns: true
+      records: true
+
+  - imports:
+      align: group
+      list_align: new_line
+      long_list_align: inline
+      list_padding: 4
+      separate_lists: true
+
+  - language_pragmas:
+      style: vertical
+      align: true
+      remove_redundant: true
+
+  - trailing_whitespace: {}
+
+columns: 80
+
+newline: native
+
+language_extensions:
+  - TemplateHaskell
+  - QuasiQuotes
+  - OverloadedStrings
+  - NoImplicitPrelude
+  - RecordWildCards
+  - LambdaCase
+  - FlexibleContexts
+  - BangPatterns
